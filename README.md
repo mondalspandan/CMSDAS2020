@@ -4,7 +4,6 @@ Repository for BTaggingExercise for CMSDAS2020
 The exercise shows the usage of BTagCalibrationReader standalone. Follow the following commands to run
 
 export SCRAM_ARCH=slc7_amd64_gcc700
-
 cmsrel CMSSW_10_2_18
 
 CMSSW_10_2_18/src/
@@ -20,7 +19,7 @@ The b-tagging calibration weight is calculated via the BTagWeight class defined 
 
 Selection.C runs selection criteria on the input samples and it is run using
 
-source process_all.sh &>masterLog.txt &
+source process_all.sh
 
 The job logs are stored in jobs/ directory.
   
