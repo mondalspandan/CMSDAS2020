@@ -3,7 +3,7 @@ Repository for BTaggingExercise for CMSDAS2020
 
 The exercise shows the usage of BTagCalibrationReader standalone. 
 
-## Installtion
+## Installation
 ```
 $export SCRAM_ARCH=slc7_amd64_gcc700
 $cmsrel CMSSW_10_2_18
@@ -29,5 +29,5 @@ The input sample Files can be found in `root://cms-xrd-global.cern.ch//store/use
 
 `make_plot.C` script can be used to check Data-MC comparison plots with 2 different b-tagging calibration methods, `discriminant reshaping (2b)` and `fixed WP-based calibration (1a)` from https://twiki.cern.ch/twiki/bin/viewauth/CMS/BTagSFMethods     
 ```
-root -l make_plot.C(<variable-string to-plot>, <calibration-tune-index>)
+root -l make_plot.C(<variable-string-to-plot>, <calibration-tune-index>)
 ```
